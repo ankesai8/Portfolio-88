@@ -1,0 +1,146 @@
+.home {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.containerLeft {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.cvBtn {
+  padding: 20px;
+  background-color: #333;
+  color: #6c63ff;
+  border-radius: 10px;
+  margin-top: 3rem;
+  width: 200px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  box-shadow: 8px 8px 8px -4px #333;
+  animation: cvBtnUp 2s ease-out;
+}
+
+.cvBtn:active {
+  transform: translateY(5px);
+}
+
+.Code {
+  width: 700px;
+  animation: moveInRight 2s ease-out;
+}
+
+.hex {
+  height: 25%;
+  margin-top: 4rem;
+}
+
+span {
+  color: #6c63ff;
+  font-size: 3rem;
+}
+
+.Hello {
+  animation: moveInLeft 2s ease-out;
+}
+
+/* Animations */
+
+@keyframes cvBtnUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Code {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .Code {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .home {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .containerRight {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .containerLeft {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .Code {
+    height: 150px;
+    margin-right: 10rem;
+  }
+}
