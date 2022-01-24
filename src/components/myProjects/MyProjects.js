@@ -52,7 +52,7 @@ const MyProjects = () => {
         <div className={classes.div4}>
           <img src={cyf} alt="cyf project" className={classes.myProjects} />
           <div className={classes.textContainer}>
-            <h3>Recpie mealDb</h3>
+            <h3>Recipe mealDb</h3>
             <p>A Web App which provide recipes to cook various dishes built using React, Node.js</p>
           </div>
           <div className={classes.btnContainer}>
