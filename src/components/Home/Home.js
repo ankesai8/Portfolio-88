@@ -11,7 +11,7 @@ const Home = () => {
         <h1 className={classes.Hello}><span>Anke SaiPrasad</span></h1>
         <h2>Full Stack Web Developer</h2>
         <h4>I love all aspects of web development especially UI/UX design</h4>
-        <a href='https://drive.google.com/file/d/1c1A9Lquw3uMdDu1rIIBisCZLED9kletN/view'target="_blank" rel="noopener noreferrer"><button className={classes.cvBtn}>Resume</button></a>
+        <a href='https://drive.google.com/file/d/1gF_oBIZjDfPl1lFaymNDn6jnZkqd1-Zg/view'target="_blank" rel="noopener noreferrer"><button className={classes.cvBtn}>Resume</button></a>
 
       </div>
       <div className={classes.containerRight}>
