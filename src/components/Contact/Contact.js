@@ -20,7 +20,7 @@ const Contact = () => {
           <ul>
             <li><CallIcon /><p>+91 7013133159</p></li>
             <li><AlternateEmailIcon /><a href="mailto:ankesai8@gmail.com">ankesai8@gmail.com</a></li>
-            <li><GitHubIcon /> <a href="https://github.com/ankesai8" target="_blank" rel="noopener noreferrer">GITHUB</a></li> 
+            <li><GitHubIcon /> <a href="https://github.com/ankesai8" target="_blank" rel="noopener noreferrer">https://github.com/ankesai8</a></li> 
           </ul>
         </div>
       </div>
