@@ -53,7 +53,7 @@ const MyProjects = () => {
           <img src={cyf} alt="cyf project" className={classes.myProjects} />
           <div className={classes.textContainer}>
             <h3>Recipe mealDb</h3>
-            <p>A Web App which provide recipes to cook various dishes built using React, Node.js</p>
+            <p>A Web Application which provide recipes to cook various dishes built using React, Node.js where a user can add, remove, update, and veiw recepies videos on youtube.</p>
           </div>
           <div className={classes.btnContainer}>
             <a href="https://mealdb-9989.netlify.app/"  target="_blank" rel="noopener noreferrer"><button>Go Live</button></a>
