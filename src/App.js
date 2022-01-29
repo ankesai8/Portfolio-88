@@ -9,11 +9,11 @@ import MyProjects from './components/myProjects/MyProjects'
 function App() {
   return (
     <div className="App">
-      <NavBar /><br>
-      <Home /><br>
-      <About /><br>
-      <Skills /><br>
-      <MyProjects /><br>
+      <NavBar />
+      <Home />
+      <About />
+      <Skills />
+      <MyProjects />
       <Contact />
     </div>
   );
