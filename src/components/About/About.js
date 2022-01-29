@@ -5,6 +5,7 @@ import me from './../../img/source.svg'
 
 const About = () => {
   return (
+    <br>
     <div id='about'>
       <div className={classes.aboutMe} >
 
