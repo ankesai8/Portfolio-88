@@ -4,7 +4,7 @@ import PageHeader from './../PageHeader/PageHeader'
 import me from './../../img/source.svg'
 
 const About = () => {
-  return ( <br>
+  return ( 
     <div id='about'>
       <div className={classes.aboutMe} >
 
@@ -27,7 +27,7 @@ const About = () => {
 </div>
       </div>
     </div>
-</br>
+
   )
 }
 
