@@ -20,7 +20,7 @@ const MyProjects = () => {
           <div className={classes.btnContainer}>
             <a href="https://book-store-9999.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className={classes.btnProj}>Go Live</button></a>
             <a href="https://github.com/ankesai8/Online-Book-Store/tree/main/frontend" target="_blank" rel="noopener noreferrer"><button className={classes.btnProj}>FrontEnd</button></a>
-            <a href="https://github.com/ankesai8/Online-Book-Store/tree/main/frontend" target="_blank" rel="noopener noreferrer"><button className={classes.btnProj}>BackEnd</button></a>
+            <a href="https://github.com/ankesai8/Online-Book-Store/tree/main/backend" target="_blank" rel="noopener noreferrer"><button className={classes.btnProj}>BackEnd</button></a>
              
           </div>
 
